@@ -1,0 +1,3 @@
+# pull Updates for the packages then update them
+sudo apt-get update
+sudp apt-get upgrade
