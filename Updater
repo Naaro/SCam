@@ -1,8 +1,6 @@
-#!bin/bash
-
 # pull Updates for the packages then update them
-sudo apt-get update
-sudp apt-get upgrade
+sudo apt-get -y update 
+sudo apt-get -y upgrade
 
 # Install VLC Media Player
-sudo apt-get install VLC
+sudo apt-get -y install vlc
